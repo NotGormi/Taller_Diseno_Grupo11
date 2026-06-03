@@ -1,10 +1,10 @@
 ### Información del Equipo
 - **Integrantes:**
-  - Nombre 1 - Rol 1
-  - Nombre 2 - Rol 2
-  - Nombre 3 - Rol 3
+  - Franco Coppellotti - Rol 1
+  - Daniel Gormaz - Rol 2
+  - Vicente Molinos - Rol 3
   
-- **ODS Seleccionado:** [Número y nombre]
+- **ODS Seleccionado:** ODS 3: Salud y bienestar
 - **Problema a resolver:** [Descripción breve]
 
 ### Descripción del Proyecto
@@ -12,7 +12,7 @@
 
 ### Estado del Proyecto
 - **Versión actual:** v3.0
-- **Última actualización:** [Fecha]
+- **Última actualización:** 3 de Junio, 2026
 - **Estado:** Prototipo final
 
 ---
