@@ -1,18 +1,19 @@
 ### Información del Equipo
 - **Integrantes:**
-  - Franco Coppellotti - Rol 1
-  - Daniel Gormaz - Rol 2
-  - Vicente Molinos - Rol 3
+  - Franco Coppellotti - Diseño 3D
+  - Daniel Gormaz - Software
+  - Vicente Molinos - Hardware
   
 - **ODS Seleccionado:** ODS 3: Salud y bienestar
-- **Problema a resolver:** [Descripción breve]
+- **Problema a resolver:** Exposición inmedida al sol
 
 ### Descripción del Proyecto
-[Breve descripción de la solución IoT propuesta]
+Con la medición inmediata de rayos UV, se permite tomar accion para proteger la salud
+de los estudiantes.
 
 ### Estado del Proyecto
 - **Versión actual:** v3.0
-- **Última actualización:** 3 de Junio, 2026
+- **Última actualización:** 4 de Junio, 2026
 - **Estado:** Prototipo final
 
 ---
