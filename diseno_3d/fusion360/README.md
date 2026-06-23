@@ -19,11 +19,9 @@ Archivo principal con **historial de cambios completo**
 ### Componentes (Components)
 ```
 Ensamble_Principal
+├── Encapsulado_Lateral
 ├── Encapsulado_Inferior
 ├── Encapsulado_Superior
-├── ESP32_DevKit
-├── Sensor_DHT22
-├── LED_Indicador
 ├── Soporte_Bateria
 ├── Bracket_Montaje
 └── Tornilleria
@@ -34,9 +32,10 @@ Documentar las juntas principales y sus restricciones
 
 ### Parámetros
 Listar parámetros principales utilizados:
-- `ancho_total = 120mm`
-- `alto_total = 80mm`
-- `grosor_pared = 2mm`
+- `ancho_total = 146mm`
+- `largo_total = 71mm`
+- `alto_total = 139mm`
+- `grosor_pared = 3mm`
 
 ---
 
@@ -53,8 +52,9 @@ Listar parámetros principales utilizados:
 
 | Versión | Fecha | Cambios Principales |
 |---------|-------|---------------------|
-| v3.0 | [Fecha] | Versión final para Avance #3 |
-| v2.1 | [Fecha] | Ajustes post Avance #2 |
-| v1.0 | [Fecha] | Primera versión funcional |
+| v3.2 | [15/06] | Versión final para Avance #3 |
+| v3.0 | [11/06] | Diseño final para avance #3 |
+| v2.0 | [29/04] | Ajustes post Avance #2 |
+| v1.0 | [27/04] | Primera versión funcional |
 
 ---
