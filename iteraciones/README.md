@@ -50,33 +50,43 @@ Cada carpeta debe incluir:
 ## Evolución del Diseño
 
 ### Versión 1 (Iteración 1) - Concepto Inicial
-**Fecha:** [XX/XX/2025]  
+**Fecha:** [23/04/2025]  
 **Estado:** Prototipo alpha - Prueba de concepto
 
 **Características:**
-- [Descripción breve]
-- Problemas principales identificados
-- Aprendizajes clave
+- Diseño conceptual de encapsulado y codigo inicial
+- Problemas principales identificados: | Diseño sin mediciones | Diseño solo funcional | No hay orden de componentes | Codigo solo cumple con toma de datos |
+- Aprendizajes clave: | Importancia de diseño y codigo ordenado y completo |
 
 ### Versión 2 (Iteración 2) - Primera Mejora
-**Fecha:** [XX/XX/2025]  
+**Fecha:** [30/04/2025]  
 **Estado:** Prototipo funcional mejorado
 
 **Mejoras implementadas:**
-- [Mejora 1]
-- [Mejora 2]
+- [Mejora 1] Diseño con medicioens y espacios para cada componente
+- [Mejora 2] Codigo permite guardar datos
 
 **Problemas pendientes:**
-- [Problema 1]
-- [Problema 2]
+- [Problema 1] El diseño no cumple en contexto de situacion real
+- [Problema 2] El codigo no permite ver información desde cualquier dispositivo
 
-### Versión 3 (Iteración 3) - Versión Final
-**Fecha:** [XX/XX/2025]  
-**Estado:** Prototipo de alta resolución
+### Versión 3.0 (Iteración 3) - Versión Semi Completa
+**Fecha:** [11/06/2025]  
+**Estado:** Prototipo con diseño final
 
 **Mejoras finales:**
-- [Mejora 1]
-- [Mejora 2]
+- [Mejora 1] Diseño cumple con un proposito real
+- [Mejora 2] Codigo permite visualizar datos desde un servidor
+
+  **Problemas pendientes:**
+- [Problema 1] El diseño no cumple con sistema de fijación
+
+### Versión 3.2 (Iteración 4) - Versión FInal
+**Fecha:** [21/06/2025]  
+**Estado:** Prototipo final y robusto
+
+**Mejoras finales:**
+- [Mejora 1] Diseño puede ser fijado y mantenido en contexto de situación real
 
 **Resultado:**
 - Sistema robusto y probado
@@ -88,14 +98,14 @@ Cada carpeta debe incluir:
 
 ### Hardware
 **De v1 a v2:**
-- Cambio: [Descripción]
-- Razón: [Justificación técnica]
-- Impacto: [Mejora cuantitativa]
+- Cambio: Uso de shield y bateria para alimentar el microcontrolador
+- Razón: En caso real, el microcontrolador no estara conectaddo a una computadora que pudiera enviara energia
+- Impacto: Diseño mas portatil y general, que permite tomar mediciones desde lugares mas amplios
 
 **De v2 a v3:**
-- Cambio: [Descripción]
-- Razón: [Justificación técnica]
-- Impacto: [Mejora cuantitativa]
+- Cambio: Quitar el protoboard
+- Razón: Habilidad de poder utilizar los pines del microcontrolador sin necesitar de un repetidor
+- Impacto: Diseño con mas espacio y mas ligero lo que equivale a un menor costo de fabricación
 
 ### Software
 **De v1 a v2:**
@@ -106,26 +116,28 @@ Cada carpeta debe incluir:
 
 ### Diseño 3D
 **De v1 a v2:**
-- [Cambios en encapsulado]
+- Cambio de material utilizado y espació para componentes con mediciones
 
 **De v2 a v3:**
-- [Cambios finales]
+- Cambio de caja a L y sistema de fijación
 
 ---
 
 ## Incorporación de Feedback
 
 ### Feedback del Avance #1 → Cambios en v2
-1. [Comentario profesor/ayudante]
-   - Acción tomada: [Descripción]
+1. El encapsulado es basico
+2. El codigo no permite recopilar datos
+   - Acción tomada: Aplicación de materiales en el diseño y guardado de datos por el codigo
 
 ### Feedback del Avance #2 → Cambios en v3
-1. [Comentario profesor/ayudante]
-   - Acción tomada: [Descripción]
+1. El encapsulado no puede ser fijado a una pared
+2. El codigo no permite visualizar datos desde un sevidor
+   - Acción tomada: Cambio de diseño desde una caja a una letra "L" invertida con ranuras a los costados para atornillar e inclusión de servidor para lectura de datos
 
 ### Feedback de Usuarios → Cambios en v3
-1. [Comentario común de usuarios]
-   - Acción tomada: [Descripción]
+1. El encapsulado no permite una ranura donde solo ilumine al sensor y no al resto de componentes
+   - Acción tomada: Cambio de diseño del encapsulado superior hacia una tapa con una pequeña ranura solo para el sensor
 
 ---
 
@@ -143,13 +155,13 @@ Cada carpeta debe incluir:
 ## Lecciones Aprendidas
 
 ### Técnicas
-- [Lección 1]
-- [Lección 2]
+- Modelaje 3D en Autodesk Fusion
+- Escritura de codigo para microcontrolador ESP8266
 
 ### De Proceso
-- [Lección 1]
-- [Lección 2]
+- Evaluación critica del proyecto al momento de buscar fallos en el diseño y codigo
+- Asignar recursos a cada integrante para avanzar de forma eficaz y equitativa el proyecto
 
 ### De Trabajo en Equipo
-- [Lección 1]
-- [Lección 2]
+- Comunicación: Poder dar opiniones y escuchar las demas al momento de querer mejorar el proyecto 
+- Compromiso: Poder tomar conciencia e iniciativa al querer hacer el proyecto no solo por requerimiento
