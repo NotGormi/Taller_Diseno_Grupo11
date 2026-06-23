@@ -35,7 +35,7 @@ Planos técnicos con cotas
 **Unidades:** Milímetros (mm)  
 **Escala:** 1:1 (dimensiones reales)
 
-**Dimensiones externas:** [X mm × Y mm × Z mm]  
+**Dimensiones externas:** [x mm × Y mm × Z mm]  
 **Peso estimado:** [XXX gramos]  
 **Material:** [PLA, ABS, PETG, etc.]
 
@@ -44,17 +44,17 @@ Planos técnicos con cotas
 ## Consideraciones de Diseño
 
 ### Funcionales
-- [ ] Acceso a puertos USB/alimentación
-- [ ] Ventilación adecuada
-- [ ] Protección de componentes
-- [ ] Fácil acceso para mantenimiento
+- [x] Acceso a puertos USB/alimentación
+- [x] Ventilación adecuada
+- [x] Protección de componentes
+- [x] Fácil acceso para mantenimiento
 - [ ] Resistencia a condiciones ambientales
 
 ### Fabricación
-- [ ] Imprimible sin soportes excesivos
-- [ ] Tolerancias de ensamble (+0.2mm)
-- [ ] Grosor de pared mínimo 2mm
-- [ ] Sin ángulos imposibles (overhangs <45°)
+- [x] Imprimible sin soportes excesivos
+- [x] Tolerancias de ensamble (+0.2mm)
+- [x] Grosor de pared mínimo 2mm
+- [x] Sin ángulos imposibles (overhangs <45°)
 
 ---
 
@@ -64,7 +64,7 @@ Planos técnicos con cotas
 **Material:** [PLA/ABS/PETG]  
 **Calidad de capa:** 0.2mm  
 **Relleno:** 20-30%  
-**Soportes:** [Sí/No - dónde]  
+**Soportes:** [Sí - En cada agujero y en la parte donde se ubica el sensor]  
 **Temperatura nozzle:** [°C]  
 **Temperatura cama:** [°C]  
 **Velocidad:** [mm/s]
