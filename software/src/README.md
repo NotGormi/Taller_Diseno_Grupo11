@@ -2,7 +2,7 @@
 
 ## Archivos Principales
 
-### `main.ino`
+### `SensorUV_G11.ino`
 Archivo principal del proyecto Arduino/ESP32
 
 **Estructura:**
@@ -35,19 +35,11 @@ float leerTemperatura() {
 ```
 
 ### Nombres de Variables
-- Variables: `camelCase`
-- Constantes: `UPPER_SNAKE_CASE`
-- Funciones: `camelCase()`
+- Variables: `voltajeADC`, `uvIndex`, `riesgo`
+- Constantes: `UV_PIN`, `VREF`, `ADC_BITS`, `UV_INDEX_TABLE`, `TABLE_SIZE`, `INTERVAL`
+- Funciones: `leerVoltaje()`, `calcularUVIndex()`, `clasificarUV()`, `imprimirBarra()`, `handleRoot()`
 
 ---
-
-## Testing y Debugging
-
-### Modo Debug
-Descomentar para activar modo debug:
-```cpp
-#define DEBUG true
-```
 
 ### Monitor Serial
 - Baudrate: 115200
