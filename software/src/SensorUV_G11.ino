@@ -14,8 +14,8 @@ void handleNotFound()
    server.send(404, "text/plain", "Not found");
 }
 
-const char* ssid = "Gormaz";
-const char* password = "Din823a4";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 /*
  * ============================================================
