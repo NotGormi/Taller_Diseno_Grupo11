@@ -11,8 +11,8 @@ Incluir diagramas de las funciones principales del sistema.
 
 #### Funciones Principales
 
-**función1()**
-- **Propósito:** [Descripción]
+**leerVolatje()**
+- **Propósito:** Leer el voltaje capturado por el sensor ultravioleta.
 - **Parámetros:** [Tipo y descripción]
 - **Retorna:** [Tipo y descripción]
 - **Ejemplo de uso:**
@@ -20,6 +20,17 @@ Incluir diagramas de las funciones principales del sistema.
 // Código de ejemplo
 ```
 
+**calcularUVIndex()**
+- **Propósito:** Calcular el índice UV según la clasificación en la tabla UV_INDEX_TABLE y el voltaje capturado por el sensor.
+- **Parámetros:**
+- **Retorna:** Índice UV en números enteros.
+- **Ejemplo de uso:**
+```cpp
+// CODIGO
+```
+
+**clasificarUV()**
+- **Propósito:** Clasificar el índice UV según el cálculo del índice UV.
 ---
 
 ## Manual de Instalación
