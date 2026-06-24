@@ -60,14 +60,14 @@ Planos técnicos con cotas
 
 ## Configuración de Impresión 3D (si fue utilizada)
 
-**Impresora:** [Modelo]  
-**Material:** [PLA/ABS/PETG]  
+**Impresora:** Impresora 3D DEC UAI 
+**Material:** [PLA]  
 **Calidad de capa:** 0.2mm  
-**Relleno:** 20-30%  
-**Soportes:** [Sí - En cada agujero y en la parte donde se ubica el sensor]  
-**Temperatura nozzle:** [°C]  
-**Temperatura cama:** [°C]  
-**Velocidad:** [mm/s]
+**Relleno:** 15%  
+**Soportes:** [Sí] - En cada agujero, partes donde se ubica el sensor 
+**Temperatura nozzle:** [°C] 200
+**Temperatura cama:** [°C]  50
+**Velocidad:** [45 mm/s]
 
-**Tiempo estimado de impresión:** [X horas]  
+**Tiempo estimado de impresión:** [18 horas]  
 **Peso de material:** [X gramos]
