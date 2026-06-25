@@ -13,7 +13,7 @@ de los estudiantes.
 
 ### Estado del Proyecto
 - **Versión actual:** v3.0
-- **Última actualización:** 4 de Junio, 2026
+- **Última actualización:** 24 de Junio, 2026
 - **Estado:** Prototipo final
 
 ---
