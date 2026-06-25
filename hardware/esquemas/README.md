@@ -23,3 +23,12 @@
 
 ## Notas de Diseño
 [Explicar decisiones importantes de diseño del circuito]
+Conexiones 
+Sensor - Placa
+S - A0 (Lectura de datos analógicos)
+VCG - 3v3 (Alimentación eléctrica)
+GND - GND
+
+Shield - Placa
+3V - 3v3 (Alimentación eléctrica)
+GND - GND
