@@ -40,7 +40,7 @@ Cada carpeta debe incluir:
 | **Fecha** | 23/04/2026 | 21/05/2026 | 24/06/2026 |
 | **Sensores** | GUVA-S12SD | GUVA-S12SD | GUVA-S12SD |
 | **Actuadores** | ❌ | ❌ | ❌ |
-| **Conectividad** | [tipo] | [tipo] | [tipo] |
+| **Conectividad** | Local | Inalambrica | Base de Datos (nube) |
 | **Encapsulado** | Conceptual | Prototipo | Finalizado |
 | **Testing** | Solo toma de datos | Servidor Locar | Base de datos |
 | **Funcionalidad** | 40% | 75% | 100% |
