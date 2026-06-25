@@ -1,17 +1,26 @@
 #include <ESP8266WiFi.h>
-#include <ESP8266WebServer.h>
 
-ESP8266WebServer server(80);
+WiFiServer server(80);
 
 float voltajeADC = 0.0;
 int uvIndex = 0;
 String riesgo = "";
 
-
-
-void handleNotFound() 
+String prepareHtmlPage()
 {
-   server.send(404, "text/plain", "Not found");
+  String htmlPage;
+  htmlPage.reserve(1024);
+  htmlPage = F("HTTP /1.1 200 OK \r\n"
+  "Content-Type: text/html\r\n"
+  "Connection: close\r\n"
+  "Refresh: 5\r\n" // Refrescar la página cada 5 segundos
+  "\r\n"
+  "<!DOCTYPE HTML>"
+  "<html>");
+  htmlPage += handleRoot();
+  htmlPage += F("</html>"
+  "\r\n");
+  return htmlPage;
 }
 
 const char* ssid = "SSID";
@@ -129,18 +138,19 @@ void imprimirBarra(int index) {
   Serial.println(clamped);
 }
 
-void handleRoot() {
+String handleRoot() {
   voltajeADC = leerVoltaje();
   uvIndex = calcularUVIndex(voltajeADC);
   riesgo = clasificarUV(uvIndex);
 
-  String html = "<html><body>";
+  String html = "<body>";
   html += "<h1>Sensor UV</h1>";
   html += "<p>Voltaje ADC: " + String(voltajeADC) + " mV</p>";
   html += "<p>Indice UV: " + String(uvIndex) + "</p>";
   html += "<p>Riesgo: " + String(riesgo) + "</p>";
-  html += "</body></html>";
-  server.send(200, "text/html", html);
+  html += "</body>";
+  
+  return html;
 }
 
 // ============================================================
@@ -166,8 +176,6 @@ void setup() {
   Serial.println("WiFi conectado");
   Serial.println("Dirección IP: ");
   Serial.println(WiFi.localIP()); // Muestra la IP asignada
-  server.on("/", handleRoot);
-  server.on("/404", handleNotFound);
   server.begin();
   Serial.println("Servidor web iniciado.");
 
@@ -184,7 +192,31 @@ void setup() {
 
 // ============================================================
 void loop() {
-  server.handleClient();
+  WiFiClient client = server.accept(); // Esperar a que el cliente (navegador web) se conecte
+
+  if (client) {
+    Serial.println("\n[Cliente conectado]");
+    while (client.connected()){ // Leer linea por linea lo que el cliente (navegador web) está pidiendo (los protocolos HTTP)
+      if (client.available()){
+        String line = client.readStringUntil('\r');
+        Serial.print(line);
+        // Esperar al término del request del navegador, que esta marcado con una línea en blanco ("\r\n")
+        if (line.length() == 1 && line[0] == '\n'){
+          client.println(prepareHtmlPage());
+          break;
+        }
+      }
+    }
+
+    while (client.available()) {
+      client.read();
+    }
+
+    // Cerrar la conexión
+    client.stop();
+    Serial.println("[Cliente desconectado]");
+  }
+
   unsigned long currentMillis = millis();
 
   if (currentMillis - previousMillis >= INTERVAL) {
