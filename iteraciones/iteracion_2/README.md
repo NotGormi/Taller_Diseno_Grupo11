@@ -112,42 +112,10 @@ Incluir en esta carpeta:
 
 | Aspecto | v1 | v2 | Mejora |
 |---------|----|----|--------|
-| Sensores funcionales | 2/3 | 3/3 | ✅ |
+| Sensores funcionales | 1/1 | 1/1 | ✅ |
 | Tiempo de respuesta | 500ms | 200ms | ↓60% |
 | Consumo energético | 250mA | 180mA | ↓28% |
 | Encapsulado | ❌ | Prototipo | ✅ |
-| Usuarios testeados | 0 | 2 | ✅ |
 
 ---
 
-## Plan para Iteración 3 (Versión Final)
-
-### Mejoras Críticas
-
-**Hardware:**
-- [ ] [Mejora crítica 1]
-- [ ] [Mejora crítica 2]
-
-**Software:**
-- [ ] [Optimización 1]
-- [ ] [Feature faltante]
-
-**Diseño:**
-- [ ] Refinar encapsulado
-- [ ] Mejorar accesibilidad
-- [ ] Finalizar sistema de montaje
-
-**Testing:**
-- [ ] Testear con 5+ usuarios
-- [ ] Validar métricas ODS
-- [ ] Instalación en contexto real
-
----
-
-## Archivos en esta Carpeta
-
-- `v2_codigo.ino` - Código de esta versión
-- `v2_esquema.png` - Esquema del circuito actualizado
-- `v2_modelo3d.f3d` - Primer diseño en Fusion 360
-- `v2_fotos/` - Fotografías del prototipo
-- `v2_feedback.pdf` - Compilación de comentarios recibidos
