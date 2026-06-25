@@ -56,18 +56,18 @@ const int   ADC_BITS   = 1023;  // Resolución 10 bits
 // Índice UV 0-1: <= 50 mV
 // Los umbrales están en milivolts (mV)
 const float UV_INDEX_TABLE[][2] = {
-  {50,   0},
-  {227,  1},
-  {318,  2},
-  {408,  3},
-  {503,  4},
-  {606,  5},
-  {696,  6},
-  {795,  7},
-  {881,  8},
-  {976,  9},
-  {1079, 10},
-  {1170, 11}
+  {0,   0},
+  {50,  1},
+  {227,  2},
+  {318,  3},
+  {408,  4},
+  {503,  5},
+  {606,  6},
+  {696,  7},
+  {795,  8},
+  {881,  9},
+  {976, 10},
+  {1079, 11}
 };
 const int TABLE_SIZE = sizeof(UV_INDEX_TABLE) / sizeof(UV_INDEX_TABLE[0]);
 
