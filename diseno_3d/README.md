@@ -35,9 +35,9 @@ Planos técnicos con cotas
 **Unidades:** Milímetros (mm)  
 **Escala:** 1:1 (dimensiones reales)
 
-**Dimensiones externas:** [x mm × Y mm × Z mm]  
-**Peso estimado:** [XXX gramos]  
-**Material:** [PLA, ABS, PETG, etc.]
+**Dimensiones externas:** [148 mm × 71 mm × 139 mm]  
+**Peso estimado:** [400 gramos]  
+**Material:** [PLA]
 
 ---
 
@@ -70,4 +70,4 @@ Planos técnicos con cotas
 **Velocidad:** [45 mm/s]
 
 **Tiempo estimado de impresión:** [18 horas]  
-**Peso de material:** [X gramos]
+**Peso de material:** [230 gramos]
