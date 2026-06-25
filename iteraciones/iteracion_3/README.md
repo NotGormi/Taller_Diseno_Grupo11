@@ -2,7 +2,7 @@
 
 ## Información General
 
-**Fecha:** [XX/XX/2025]  
+**Fecha:** [24/06/2025]  
 **Versión:** v3.0  
 **Estado:** Prototipo de alta resolución - Versión final  
 **Avance asociado:** Avance #3
@@ -16,7 +16,6 @@ Versión final del prototipo, incorporando todas las mejoras y refinamientos bas
 **Objetivos alcanzados:**
 - Prototipo completamente funcional y robusto
 - Encapsulado finalizado con todos los componentes
-- Validación con 5+ usuarios del grupo objetivo
 - Métricas de impacto ODS cuantificadas
 - Sistema instalable en contexto urbano real
 
@@ -26,22 +25,22 @@ Versión final del prototipo, incorporando todas las mejoras y refinamientos bas
 
 ### Hardware
 **Mejoras implementadas:**
-1. [Mejora 1]
-   - Razón: [Feedback de v2 / necesidad identificada]
-   - Impacto: [Mejora cuantitativa]
+1. [Mejora 1] Uso de pernos y tornillos
+   - Razón: Los componentes no se ubicaban en una posición firme
+   - Impacto: Los componentes no se mueven adentro del encapsulado por lo que se protegen fisicamente
 
-2. [Mejora 2]
-   - Razón: [Feedback de v2 / necesidad identificada]
-   - Impacto: [Mejora cuantitativa]
+2. [Mejora 2] Divición entre cara posterior e inferior
+   - Razón: Permite una mejor mantención de componentes internos y facilidad de manipular
+   - Impacto: Hay un menor riesgo a que los componentes se dañen al momento de querer hacer una mantención
 
 **Cambios finales:**
-- [Cambio técnico específico]
-- [Optimización final]
+- Mediciones coerentes al contexto
+- Menor consumo electrico del microprocesador
 
 ### Software
 **Nuevas funcionalidades:**
-- [Feature final 1]
-- [Feature final 2]
+- Base de datos
+- Mediciones certeras
 
 **Optimizaciones finales:**
 - [Optimización de código]
@@ -58,7 +57,6 @@ Versión final del prototipo, incorporando todas las mejoras y refinamientos bas
 - Todos los componentes integrados
 - Sistema de montaje robusto
 - Accesibilidad para mantenimiento
-- Resistencia a condiciones ambientales
 
 ---
 
@@ -83,45 +81,26 @@ Incluir en esta carpeta:
 ✅ Interfaz de usuario funcional  
 ✅ Manejo robusto de errores  
 
-### Testing con 5+ Usuarios
-
-**Participantes:**
-- N = [número] usuarios
-- Perfil: [Descripción del grupo objetivo]
-
-**Resultados cuantitativos:**
-| Métrica | Promedio | Desv. Std. |
-|---------|----------|------------|
-| Facilidad de uso (1-5) | [X.X] | [X.X] |
-| Satisfacción (1-5) | [X.X] | [X.X] |
-| Tiempo completar tarea (seg) | [XX] | [XX] |
-| Errores cometidos | [X.X] | [X.X] |
-
-**Feedback cualitativo más relevante:**
-- Positivo: "[Cita de usuario]"
-- Positivo: "[Cita de usuario]"
-- A mejorar: "[Cita de usuario]"
-
 ### Validación de Impacto ODS
 
-**ODS Seleccionado:** [Número y nombre]
+**ODS Seleccionado:** [3 Salud y Bienestar]
 
 **Métricas de impacto:**
 
-1. **[Métrica 1]**
-   - Baseline (sin prototipo): [Valor]
-   - Con prototipo: [Valor medido]
-   - Mejora: [% o valor absoluto]
+1. Alumnos con conciencia climatica
+   - Baseline (sin prototipo): [10]
+   - Con prototipo: [17]
+   - Mejora: [70%]
 
-2. **[Métrica 2]**
-   - Baseline: [Valor]
-   - Con prototipo: [Valor medido]
-   - Mejora: [% o valor absoluto]
+2. Alumnos con protector solar
+   - Baseline: [5]
+   - Con prototipo: [8]
+   - Mejora: [60%]
 
 **Proyección de impacto:**
-Si se despliega a escala [barrio/ciudad/región]:
-- [Impacto estimado cuantitativo]
-- [Beneficiarios potenciales]
+Si se despliega a escala [UAI]:
+- [Menor malestar y enfermedad cutanias]
+- [Alumnos, profesores, y cuerpo medico]
 
 ---
 
@@ -130,7 +109,6 @@ Si se despliega a escala [barrio/ciudad/región]:
 | Aspecto | v1 | v2 | v3 | Mejora Total |
 |---------|----|----|----| -------------|
 | **Sensores** | 2/3 | 3/3 | 3/3 | ✅ 100% |
-| **Actuadores** | 1/2 | 2/2 | 2/2 | ✅ 100% |
 | **Tiempo respuesta (ms)** | 500 | 200 | 100 | ↓ 80% |
 | **Consumo (mA)** | 250 | 180 | 120 | ↓ 52% |
 | **Tasa errores (%)** | 15 | 5 | 1 | ↓ 93% |
@@ -143,65 +121,65 @@ Si se despliega a escala [barrio/ciudad/región]:
 
 ## Fortalezas del Prototipo Final
 
-1. **[Fortaleza 1]**
-   - Evidencia: [Datos de testing]
+1. Encapsulado Firme
+   - Evidencia: Las partes del encapsulado no se separan al movimiento forzado
 
-2. **[Fortaleza 2]**
-   - Evidencia: [Feedback de usuarios]
+2. Datos analiticos
+   - Evidencia: La base de datos permite tomar decisiones por horarios
 
-3. **[Fortaleza 3]**
-   - Evidencia: [Métricas técnicas]
+3. Consumo pertinente
+   - Evidencia: El encapsulado permite tomar datos por minimo 2 días sin mantenimiento 
 
 ---
 
 ## Limitaciones Identificadas
 
-1. **[Limitación 1]**
-   - Descripción: [Detalles]
-   - Impacto: [Evaluación]
-   - Posible solución futura: [Ideas]
+1. Fragil a material particulado
+   - Descripción: Horificios para cargar y encender el shield 
+   - Impacto: El contorno interior es sensible amaterial externo
+   - Posible solución futura: Mejor encapsulado
 
-2. **[Limitación 2]**
-   - Descripción: [Detalles]
-   - Impacto: [Evaluación]
-   - Posible solución futura: [Ideas]
+2. No existe una advertencia inmediata
+   - Descripción: Sin revisar la base de datos o el servidor, no se permite tomar decisiones frente a la radiación UV
+   - Impacto: Estudiantes y personal que esta ocupado en el exterior sin celular no puede ver la información
+   - Posible solución futura: Luz led que se prenda desde cierta intensidad
 
 ---
 
 ## Aprendizajes del Proceso Completo
 
 ### Técnicos
-1. [Aprendizaje técnico importante]
-2. [Aprendizaje técnico importante]
+1. Optimización de consumo energetico en IoT
+2. Procesamiento de señales analógicas y de calibración
 
 ### De Diseño
-1. [Lección sobre proceso de diseño]
-2. [Lección sobre proceso de diseño]
+1. Analisis de dimensiones fisicas y volumetricas
+2. Diseño orientado a una funcionalidad fisica
 
 ### De Trabajo en Equipo
-1. [Lección sobre colaboración]
-2. [Lección sobre colaboración]
+1. Desarrollo conjunto entre estaciones
+2. Estandarización de documentos
 
 ### De Gestión de Proyecto
-1. [Lección sobre planificación]
-2. [Lección sobre gestión de tiempo]
+1. Gestión de restricciones y costos marginales
+2. Planificación temporal 
 
 ---
 
 ## Trabajo Futuro Recomendado
 
 ### Mejoras a Corto Plazo
-- [ ] [Mejora 1]
-- [ ] [Mejora 2]
+- [ ] Optimización de encapsulado
+- [ ] Refinamiento del algoritmo
 
 ### Mejoras a Mediano Plazo
-- [ ] [Feature adicional 1]
-- [ ] [Optimización 1]
+- [ ] Integración de alerta fisica
+- [ ] Rediseño de hardware para otros contextos
 
 ### Escalabilidad
-- [ ] [Consideración para producción masiva]
-- [ ] [Modelo de negocio / sustentabilidad]
-- [ ] [Alianzas estratégicas potenciales]
+- [ ] Automatización de impresion y armado
+- [ ] Codigo abierto transparente
+- [ ] Alianza estrategica con comite estudiantil
 
 ---
 
