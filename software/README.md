@@ -8,6 +8,9 @@ Esta carpeta contiene todo el código y documentación del software del proyecto
 #### `src/`
 Código fuente del proyecto (.ino para Arduino/ESP32)
 
+#### `librerias/`
+Librerías utilizadas en el proyecto
+
 #### `docs/`
 Documentación técnica del software
 
@@ -25,10 +28,12 @@ Documentación técnica del software
 ## Instalación y Configuración
 
 ### 1. Instalar Arduino IDE
-[Instrucciones de instalación]
+1. Instalar Arduino IDE desde la página `https://docs.arduino.cc/software/ide/`
 
 ### 2. Configurar ESP8266
-[Pasos de configuración]
+1. Descargar el driver universal CP210x desde la página `https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads`
+2. Extraer el archivo zip en una carpeta destinada por el usuario (por ejemplo una carpeta en el escritorio llamada `Driver CP2102`)
+3. En Arduino IDE, ir a `File > Preferences > Settings` y colocar en `Additional boards manager URLs:` colocar `https://arduino.esp8266.com/stable/package_esp8266com_index.json`
 
 ### 3. Cargar Código
 1. Abrir `src/SensorUV_G11.ino`
