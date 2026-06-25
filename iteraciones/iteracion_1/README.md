@@ -2,7 +2,7 @@
 
 ## Información General
 
-**Fecha:** [XX/XX/2025]  
+**Fecha:** [23/04/2025]  
 **Versión:** v1.0  
 **Estado:** Prototipo alpha - Prueba de concepto  
 **Avance asociado:** Planificación inicial / Avance #1
