@@ -23,6 +23,7 @@ Documentación técnica del software
 **IDE:** Arduino IDE 2.3.8  
 **Librerías principales:**
 - ESP8266WiFi.h - Versión 1.0
+- FirebaseClient.h - Versión 2.2.9
 ---
 
 ## Instalación y Configuración
