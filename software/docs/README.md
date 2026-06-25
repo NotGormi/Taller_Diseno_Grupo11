@@ -8,7 +8,7 @@
 
 **leerVoltaje()**
 - **Propósito:** Leer el voltaje capturado por el sensor ultravioleta
-- **Parámetros:** [Tipo y descripción]
+- **Parámetros:** Lectura análoga del voltaje del sensor GUVA-S12SD
 - **Retorna:** float mV, corresponde al promedio de 10 lecturas de voltaje del sensor
 - **Ejemplo de uso:**
 ```cpp
