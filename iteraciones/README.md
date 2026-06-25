@@ -37,13 +37,13 @@ Cada carpeta debe incluir:
 
 | Aspecto | v1 | v2 | v3 |
 |---------|----|----|----| 
-| **Fecha** | [fecha] | [fecha] | [fecha] |
-| **Sensores** | [lista] | [lista] | [lista] |
-| **Actuadores** | [lista] | [lista] | [lista] |
+| **Fecha** | 23/04/2026 | 21/05/2026 | 24/06/2026 |
+| **Sensores** | GUVA-S12SD | GUVA-S12SD | GUVA-S12SD |
+| **Actuadores** | ❌ | ❌ | ❌ |
 | **Conectividad** | [tipo] | [tipo] | [tipo] |
-| **Encapsulado** | ❌ | Prototipo | Finalizado |
-| **Testing** | Solo equipo | 2 usuarios | 5+ usuarios |
-| **Funcionalidad** | 60% | 80% | 100% |
+| **Encapsulado** | Conceptual | Prototipo | Finalizado |
+| **Testing** | Solo toma de datos | Servidor Locar | Base de datos |
+| **Funcionalidad** | 40% | 75% | 100% |
 
 ---
 
@@ -109,10 +109,10 @@ Cada carpeta debe incluir:
 
 ### Software
 **De v1 a v2:**
-- [Cambios principales]
+- El prototipo ermite lectura de datos en un servidor locar
 
 **De v2 a v3:**
-- [Cambios principales]
+- El prototipo guarda datos en una base de datos
 
 ### Diseño 3D
 **De v1 a v2:**
@@ -148,7 +148,7 @@ Cada carpeta debe incluir:
 | Tiempo respuesta (ms) | 500 | 200 | 100 | ↓80% |
 | Consumo (mA) | 250 | 180 | 120 | ↓52% |
 | Tasa de errores (%) | 15 | 5 | 1 | ↓93% |
-| Satisfacción usuario (1-5) | 3.0 | 3.8 | 4.5 | ↑50% |
+| Toma de datos (1-5) | 3.0 | 3.8 | 4.5 | ↑50% |
 
 ---
 
