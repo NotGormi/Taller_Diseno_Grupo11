@@ -53,33 +53,32 @@ de los estudiantes.
 ##  Inicio Rápido
 
 ### Requisitos Previos
-- Arduino IDE 2.x
+- Arduino IDE 2.3.8
 - Fusion 360
 
 ### Instalación
 1. Clonar el repositorio
 2. Instalar librerías (ver `software/librerias/`)
-3. Cargar código en ESP32/Arduino
-4. [Pasos adicionales]
+3. Cargar código en ESP8266
 
 ---
 
 ##  Checklist de Entrega
 
 ### Hardware ✓
-- [ ] Esquema del circuito (Fritzing/Wokwi)
-- [ ] BOM completo
-- [ ] Fotos de alta resolución
+- [x] Esquema del circuito (Fritzing/Wokwi)
+- [x] BOM completo
+- [x] Fotos de alta resolución
 
 ### Software ✓
-- [ ] Código comentado
-- [ ] Librerías documentadas
-- [ ] Manual de instalación
+- [x] Código comentado
+- [x] Librerías documentadas
+- [x] Manual de instalación
 
 ### Diseño 3D ✓
-- [ ] Archivos Fusion 360 (.f3d) con TODOS los componentes
-- [ ] Renders de alta calidad (1+ ángulos)
-- [ ] Planos técnicos
+- [x] Archivos Fusion 360 (.f3d) con TODOS los componentes
+- [x] Renders de alta calidad (1+ ángulos)
+- [x] Planos técnicos
 
 ### Testing ✓
 - [ ] Reporte de testing con usuarios (mín. 5)
@@ -87,8 +86,8 @@ de los estudiantes.
 - [ ] Datos cuantitativos
 
 ### Documentación ✓
-- [ ] Reporte final (máx. 15 páginas)
-- [ ] Presentación (10 min)
+- [x] Reporte final (máx. 15 páginas)
+- [x] Presentación (10 min)
 
 ---
 
