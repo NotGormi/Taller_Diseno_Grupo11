@@ -34,7 +34,7 @@ Duración: 10 minutos de presentación
 
 ### Documentos Obligatorios
 - [ ] Reporte final PDF (máx. 15 páginas)
-- [ ] Presentación PDF/PPTX
+- [x] Presentación PDF/PPTX
 - [ ] Manual de usuario (puede estar integrado en reporte)
 
 ### Contenido del Reporte
@@ -48,9 +48,9 @@ Duración: 10 minutos de presentación
 - [ ] Referencias bibliográficas
 
 ### Contenido de Presentación
-- [ ] Problema y contexto ODS (2 min)
-- [ ] Solución técnica (3 min)
-- [ ] Iteraciones y refinamiento (2 min)
+- [x] Problema y contexto ODS (2 min)
+- [x] Solución técnica (3 min)
+- [x] Iteraciones y refinamiento (2 min)
 - [ ] Validación con usuarios (2 min)
-- [ ] Demo en vivo (3 min)
-- [ ] Conclusiones (1 min)
+- [x] Demo en vivo (3 min)
+- [x] Conclusiones (1 min)
