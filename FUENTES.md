@@ -6,7 +6,7 @@
 |-----------|------------|-----------|
 |     ESP8266WiFi      |     1.0      |    Creación de servidor web       |
 |  FirebaseClient         |      2.2.9     |      Almacenamiento de datos     |
-------------|------------------------
+-------------------------------------
 
 ## Uso de Inteligencia Artificial
 
